@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Draco" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="TOD" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-Wl,--enable-auto-image-base" />
+					<Add option="-Wl,--add-stdcall-alias" />
+					<Add option="-Wl,--enable-auto-import" />
+					<Add library="SDL" />
+					<Add library="..\..\..\..\..\..\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_image.lib" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mthreads" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fexceptions" />
+			<Add option="-fident" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add option="-Wl,--enable-auto-import" />
+			<Add library="SDL" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_image.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_ttf.lib" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib\SDL_mixer.lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="Affichage.cpp" />
+		<Unit filename="Affichage.h" />
+		<Unit filename="Entite.cpp" />
+		<Unit filename="Entite.h" />
+		<Unit filename="EntiteManager.cpp" />
+		<Unit filename="EntiteManager.h" />
+		<Unit filename="Entree_Clavier.cpp" />
+		<Unit filename="Entree_Clavier.h" />
+		<Unit filename="Fenetre.cpp" />
+		<Unit filename="Fenetre.h" />
+		<Unit filename="Gemme.cpp" />
+		<Unit filename="Gemme.h" />
+		<Unit filename="Hero.cpp" />
+		<Unit filename="Hero.h" />
+		<Unit filename="Monstre_1.cpp" />
+		<Unit filename="Monstre_1.h" />
+		<Unit filename="Monstre_2.cpp" />
+		<Unit filename="Monstre_2.h" />
+		<Unit filename="Monstre_3.cpp" />
+		<Unit filename="Monstre_3.h" />
+		<Unit filename="Niveau.cpp" />
+		<Unit filename="Niveau.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

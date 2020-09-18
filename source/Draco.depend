@@ -1,0 +1,583 @@
+# depslib dependency file v1.0
+1431110062 source:c:\users\thealpha\desktop\etudes\info402\test1\affichage.cpp
+	"Affichage.h"
+	"Niveau.h"
+	"Hero.h"
+
+1431109803 c:\users\thealpha\desktop\etudes\info402\test1\affichage.h
+	<SDL\SDL.h>
+	<SDL\SDL_image.h>
+	"Fenetre.h"
+	"EntiteManager.h"
+	"Entite.h"
+	"Timer.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326114594 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325788834 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1431107178 c:\users\thealpha\desktop\etudes\info402\test1\fenetre.h
+	<SDL\SDL.h>
+	<stdlib.h>
+	"Entree_Clavier.h"
+	"EntiteManager.h"
+	"Affichage.h"
+	"Timer.h"
+
+1431107263 c:\users\thealpha\desktop\etudes\info402\test1\entree_clavier.h
+	<SDL\SDL.h>
+
+1431109279 c:\users\thealpha\desktop\etudes\info402\test1\entitemanager.h
+	<stdlib.h>
+	<time.h>
+
+1431105199 c:\users\thealpha\desktop\etudes\info402\test1\timer.h
+	<time.h>
+
+1431106053 c:\users\thealpha\desktop\etudes\info402\test1\entite.h
+	<stdlib.h>
+	"Timer.h"
+	"Fenetre.h"
+	"EntiteManager.h"
+	"Niveau.h"
+	"Affichage.h"
+
+1431108026 c:\users\thealpha\desktop\etudes\info402\test1\niveau.h
+	"EntiteManager.h"
+
+1431108274 c:\users\thealpha\desktop\etudes\info402\test1\hero.h
+	"Entite.h"
+	"Monstre_1.h"
+	"Monstre_2.h"
+	"Monstre_3.h"
+
+1431109195 c:\users\thealpha\desktop\etudes\info402\test1\monstre_1.h
+	"Entite.h"
+
+1431109284 c:\users\thealpha\desktop\etudes\info402\test1\monstre_2.h
+	"Entite.h"
+
+1431109290 c:\users\thealpha\desktop\etudes\info402\test1\monstre_3.h
+	"Entite.h"
+
+1431108872 source:c:\users\thealpha\desktop\etudes\info402\test1\entite.cpp
+	"Entite.h"
+
+1431109298 source:c:\users\thealpha\desktop\etudes\info402\test1\entitemanager.cpp
+	"EntiteManager.h"
+	"Entree_Clavier.h"
+	"Entite.h"
+	"Hero.h"
+	"Monstre_1.h"
+	"Monstre_2.h"
+	"Monstre_3.h"
+
+1431113407 source:c:\users\thealpha\desktop\etudes\info402\test1\entree_clavier.cpp
+	"Entree_Clavier.h"
+	"Hero.h"
+	"Affichage.h"
+
+1431115342 source:c:\users\thealpha\desktop\etudes\info402\test1\fenetre.cpp
+	"Fenetre.h"
+	"Niveau.h"
+	"Entite.h"
+	"Hero.h"
+
+1431112702 source:c:\users\thealpha\desktop\etudes\info402\test1\hero.cpp
+	"Hero.h"
+	"Niveau.h"
+
+1431112724 source:c:\users\thealpha\desktop\etudes\info402\test1\main.cpp
+	"Fenetre.h"
+	<windows.h>
+
+1431110759 source:c:\users\thealpha\desktop\etudes\info402\test1\monstre_1.cpp
+	"Monstre_1.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431111777 source:c:\users\thealpha\desktop\etudes\info402\test1\monstre_2.cpp
+	"Monstre_2.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431111778 source:c:\users\thealpha\desktop\etudes\info402\test1\monstre_3.cpp
+	"Monstre_3.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431112012 source:c:\users\thealpha\desktop\etudes\info402\test1\niveau.cpp
+	"Niveau.h"
+	"Fenetre.h"
+
+1431105186 source:c:\users\thealpha\desktop\etudes\info402\test1\timer.cpp
+	"Timer.h"
+
+1431108872 source:c:\users\thealpha\desktop\etudes\info402\draco\entite.cpp
+	"Entite.h"
+
+1431127738 c:\users\thealpha\desktop\etudes\info402\draco\entite.h
+	<stdlib.h>
+	"Timer.h"
+	"Fenetre.h"
+	"EntiteManager.h"
+	"Niveau.h"
+	"Affichage.h"
+
+1431105199 c:\users\thealpha\desktop\etudes\info402\draco\timer.h
+	<time.h>
+
+1431141894 c:\users\thealpha\desktop\etudes\info402\draco\fenetre.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+	<stdlib.h>
+	"Entree_Clavier.h"
+	"EntiteManager.h"
+	"Affichage.h"
+	"Timer.h"
+
+1431107263 c:\users\thealpha\desktop\etudes\info402\draco\entree_clavier.h
+	<SDL\SDL.h>
+
+1431135476 c:\users\thealpha\desktop\etudes\info402\draco\entitemanager.h
+	<stdlib.h>
+	<time.h>
+
+1431136473 c:\users\thealpha\desktop\etudes\info402\draco\affichage.h
+	<SDL\SDL.h>
+	<SDL\SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Fenetre.h"
+	"EntiteManager.h"
+	"Entite.h"
+	"Timer.h"
+	<string>
+
+1431108026 c:\users\thealpha\desktop\etudes\info402\draco\niveau.h
+	"EntiteManager.h"
+
+1431142833 source:c:\users\thealpha\desktop\etudes\info402\draco\entree_clavier.cpp
+	"Entree_Clavier.h"
+	"Hero.h"
+	"Affichage.h"
+
+1431108274 c:\users\thealpha\desktop\etudes\info402\draco\hero.h
+	"Entite.h"
+	"Monstre_1.h"
+	"Monstre_2.h"
+	"Monstre_3.h"
+
+1431134986 c:\users\thealpha\desktop\etudes\info402\draco\monstre_1.h
+	"Entite.h"
+
+1431109284 c:\users\thealpha\desktop\etudes\info402\draco\monstre_2.h
+	"Entite.h"
+
+1431109290 c:\users\thealpha\desktop\etudes\info402\draco\monstre_3.h
+	"Entite.h"
+
+1431143066 source:c:\users\thealpha\desktop\etudes\info402\draco\fenetre.cpp
+	"Fenetre.h"
+	"Niveau.h"
+	"Entite.h"
+	"Hero.h"
+
+1431124806 source:c:\users\thealpha\desktop\etudes\info402\draco\hero.cpp
+	"Hero.h"
+	"Niveau.h"
+
+1431112724 source:c:\users\thealpha\desktop\etudes\info402\draco\main.cpp
+	"Fenetre.h"
+	<windows.h>
+
+1431143194 source:c:\users\thealpha\desktop\etudes\info402\draco\monstre_1.cpp
+	"Monstre_1.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431143205 source:c:\users\thealpha\desktop\etudes\info402\draco\monstre_2.cpp
+	"Monstre_2.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431143212 source:c:\users\thealpha\desktop\etudes\info402\draco\monstre_3.cpp
+	"Monstre_3.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431105186 source:c:\users\thealpha\desktop\etudes\info402\draco\timer.cpp
+	"Timer.h"
+
+1431137686 source:c:\users\thealpha\desktop\etudes\info402\draco\affichage.cpp
+	"Affichage.h"
+	"Niveau.h"
+	"Hero.h"
+	"sstream"
+
+1431143760 source:c:\users\thealpha\desktop\etudes\info402\draco\entitemanager.cpp
+	"EntiteManager.h"
+	"Entree_Clavier.h"
+	"Entite.h"
+	"Hero.h"
+	"Monstre_1.h"
+	"Monstre_2.h"
+	"Monstre_3.h"
+	"Gemme.h"
+	"Affichage.h"
+
+1431121164 c:\users\thealpha\desktop\etudes\info402\draco\gemme.h
+	"Entite.h"
+
+1431128223 source:c:\users\thealpha\desktop\etudes\info402\draco\gemme.cpp
+	"Gemme.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431143682 source:c:\users\thealpha\desktop\etudes\info402\draco\niveau.cpp
+	"Niveau.h"
+	"Fenetre.h"
+
+1325793194 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325789340 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1431137686 source:j:\users\thealpha\downloads\draco\draco\affichage.cpp
+	"Affichage.h"
+	"Niveau.h"
+	"Hero.h"
+	"sstream"
+
+1431136473 j:\users\thealpha\downloads\draco\draco\affichage.h
+	<SDL\SDL.h>
+	<SDL\SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Fenetre.h"
+	"EntiteManager.h"
+	"Entite.h"
+	"Timer.h"
+	<string>
+
+1431141894 j:\users\thealpha\downloads\draco\draco\fenetre.h
+	<SDL\SDL.h>
+	<SDL\SDL_mixer.h>
+	<stdlib.h>
+	"Entree_Clavier.h"
+	"EntiteManager.h"
+	"Affichage.h"
+	"Timer.h"
+
+1431107263 j:\users\thealpha\downloads\draco\draco\entree_clavier.h
+	<SDL\SDL.h>
+
+1431135476 j:\users\thealpha\downloads\draco\draco\entitemanager.h
+	<stdlib.h>
+	<time.h>
+
+1431105199 j:\users\thealpha\downloads\draco\draco\timer.h
+	<time.h>
+
+1431127738 j:\users\thealpha\downloads\draco\draco\entite.h
+	<stdlib.h>
+	"Timer.h"
+	"Fenetre.h"
+	"EntiteManager.h"
+	"Niveau.h"
+	"Affichage.h"
+
+1431108026 j:\users\thealpha\downloads\draco\draco\niveau.h
+	"EntiteManager.h"
+
+1431108274 j:\users\thealpha\downloads\draco\draco\hero.h
+	"Entite.h"
+	"Monstre_1.h"
+	"Monstre_2.h"
+	"Monstre_3.h"
+
+1431134986 j:\users\thealpha\downloads\draco\draco\monstre_1.h
+	"Entite.h"
+
+1431109284 j:\users\thealpha\downloads\draco\draco\monstre_2.h
+	"Entite.h"
+
+1431109290 j:\users\thealpha\downloads\draco\draco\monstre_3.h
+	"Entite.h"
+
+1431108872 source:j:\users\thealpha\downloads\draco\draco\entite.cpp
+	"Entite.h"
+
+1431143760 source:j:\users\thealpha\downloads\draco\draco\entitemanager.cpp
+	"EntiteManager.h"
+	"Entree_Clavier.h"
+	"Entite.h"
+	"Hero.h"
+	"Monstre_1.h"
+	"Monstre_2.h"
+	"Monstre_3.h"
+	"Gemme.h"
+	"Affichage.h"
+
+1431121164 j:\users\thealpha\downloads\draco\draco\gemme.h
+	"Entite.h"
+
+1431142833 source:j:\users\thealpha\downloads\draco\draco\entree_clavier.cpp
+	"Entree_Clavier.h"
+	"Hero.h"
+	"Affichage.h"
+
+1431143066 source:j:\users\thealpha\downloads\draco\draco\fenetre.cpp
+	"Fenetre.h"
+	"Niveau.h"
+	"Entite.h"
+	"Hero.h"
+
+1431128223 source:j:\users\thealpha\downloads\draco\draco\gemme.cpp
+	"Gemme.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431124806 source:j:\users\thealpha\downloads\draco\draco\hero.cpp
+	"Hero.h"
+	"Niveau.h"
+
+1431112724 source:j:\users\thealpha\downloads\draco\draco\main.cpp
+	"Fenetre.h"
+	<windows.h>
+
+1431143194 source:j:\users\thealpha\downloads\draco\draco\monstre_1.cpp
+	"Monstre_1.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431143205 source:j:\users\thealpha\downloads\draco\draco\monstre_2.cpp
+	"Monstre_2.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431143212 source:j:\users\thealpha\downloads\draco\draco\monstre_3.cpp
+	"Monstre_3.h"
+	"Hero.h"
+	"Fenetre.h"
+	"Niveau.h"
+
+1431143682 source:j:\users\thealpha\downloads\draco\draco\niveau.cpp
+	"Niveau.h"
+	"Fenetre.h"
+
+1431105186 source:j:\users\thealpha\downloads\draco\draco\timer.cpp
+	"Timer.h"
+
